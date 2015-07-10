@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: edeposit.amqp-errors
+Version: 0.1.0
+Summary: eDeposit Plone app that helps with classifying of amqp errors
+Home-page: https://github.com/jstavel/edeposit.amqp_errors
+Author: Jan Stavel
+Author-email: stavel.jan@gmail.com
+License: GPL version 2
+Description: Introduction
+        ============
+        
+        This product may contain traces of nuts.
+        
+        Changelog
+        =========
+        
+        0.1.0dev (unreleased)
+        ---------------------
+        
+        - Initial release
+        
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

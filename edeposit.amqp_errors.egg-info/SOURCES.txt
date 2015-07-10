@@ -1,0 +1,17 @@
+README.txt
+setup.cfg
+setup.py
+edeposit/__init__.py
+edeposit.amqp_errors.egg-info/PKG-INFO
+edeposit.amqp_errors.egg-info/SOURCES.txt
+edeposit.amqp_errors.egg-info/dependency_links.txt
+edeposit.amqp_errors.egg-info/entry_points.txt
+edeposit.amqp_errors.egg-info/namespace_packages.txt
+edeposit.amqp_errors.egg-info/not-zip-safe
+edeposit.amqp_errors.egg-info/paster_plugins.txt
+edeposit.amqp_errors.egg-info/requires.txt
+edeposit.amqp_errors.egg-info/top_level.txt
+edeposit/amqp_errors/__init__.py
+edeposit/amqp_errors/amqp_error_classification.py
+edeposit/amqp_errors/amqp_error_classification_folder.py
+edeposit/amqp_errors/tests.py

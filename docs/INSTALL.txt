@@ -1,0 +1,17 @@
+edeposit.amqp_errors Installation
+---------------------------------
+
+To install edeposit.amqp_errors using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``edeposit.amqp_errors`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        edeposit.amqp_errors
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
