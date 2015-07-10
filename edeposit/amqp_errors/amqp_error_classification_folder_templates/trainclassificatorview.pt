@@ -12,6 +12,8 @@
 
     <h3>List of trained data</h3>
 
+    <form tal:replace="structure view/form_wrapper"/>
+
     <ul tal:define="update context/updateClassificator">
       <tal:row tal:repeat="item context/getTrainData">
         <li tal:content="item">trained item</li>
