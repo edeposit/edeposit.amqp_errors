@@ -52,11 +52,11 @@ class AMQPErrorClassificationFolder(Container):
     def updateClassificator(self):
         self.classificator = self.classifierFactory(self.getTrainData())
 
-    def classifyError(errorText):
+    def classifyError(self,errorText):
         if not getattr(self,'classifier',None):
-            self.classifier = self.classifierFactory(self.getTrainData)
+            self.classifier = self.classifierFactory(self.getTrainData())
 
-        prob_cl = self.classifier(errorText)
+        prob_cl = self.classifier.prob_classify(errorText)
         result = prob_cl.max()
         return (result, prob_cl.prob(result))
 
