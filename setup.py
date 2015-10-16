@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.0'
+version = '1.0.0'
 
 setup(name='edeposit.amqp_errors',
       version=version,
@@ -15,10 +16,10 @@ setup(name='edeposit.amqp_errors',
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='',
-      author='Jan Stavel',
+      keywords='NLTK',
+      author=u'Jan Stavěl',
       author_email='stavel.jan@gmail.com',
-      url='https://github.com/jstavel/edeposit.amqp_errors',
+      url='https://github.com/edeposit/edeposit.amqp_errors',
       license='GPL version 2',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['edeposit'],
@@ -28,6 +29,7 @@ setup(name='edeposit.amqp_errors',
           'setuptools',
           'plone.app.dexterity [grok]',
           'textblob',
+          'nltk',
           'plone.namedfile [blobs]',
           # -*- Extra requirements: -*-
       ],
